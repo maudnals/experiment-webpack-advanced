@@ -1,0 +1,8 @@
+{
+  "name": "webpack-advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maudnals/webpack-advanced.git",
+  "author": "D068996 <m.nalpas@sap.com>",
+  "license": "MIT"
+}
