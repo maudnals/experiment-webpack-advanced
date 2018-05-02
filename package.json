@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "yarn build --watch"
   },
   "devDependencies": {
     "webpack": "^4.6.0",
