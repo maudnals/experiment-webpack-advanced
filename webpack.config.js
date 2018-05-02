@@ -1,10 +1,6 @@
-const path = require('path');
+const commonConfig = require('./build-utils/webpack.common');
 
-module.exports = {
-  mode: 'production',
-  entry: './src/',
-  output: {
-    filename: 'bundle.js',
-    path: path.join(__dirname, 'dist')
-  }
+module.exports = function(env) {
+  console.log('env =', env);
+  return commonConfig;
 }
