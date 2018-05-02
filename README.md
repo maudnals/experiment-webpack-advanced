@@ -1,1 +1,1 @@
-# webpack-tricks
+# webpack-advanced
