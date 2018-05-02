@@ -6,7 +6,8 @@
   "author": "maud.nalpas@gnail.com",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "webpack": "^4.6.0",
