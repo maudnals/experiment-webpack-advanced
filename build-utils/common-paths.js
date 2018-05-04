@@ -1,7 +1,7 @@
 const path = require('path');
 
 const commonPaths = {
-  outputPaths: path.resolve(__dirname, "../")
+  outputPath: path.resolve(__dirname, "../", "dist")
 };
 
 module.exports = commonPaths;
