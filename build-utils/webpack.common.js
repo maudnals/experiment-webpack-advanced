@@ -12,7 +12,22 @@ const config = {
   plugins: [
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin(),
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.png/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 10000
+            }
+          }
+        ]
+      }
+    ]
+  }
 };
 
 module.exports = config;
