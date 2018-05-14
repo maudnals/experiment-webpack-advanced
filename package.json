@@ -6,6 +6,7 @@
   "author": "maud.nalpas@gnail.com",
   "license": "MIT",
   "scripts": {
+    "dev": "yarn webpack-dev-server -- --env.env=dev",
     "build": "webpack",
     "build:dev": "yarn build -- --env.env=dev",
     "build:watch": "yarn build -- --watch --env.env=prod",
