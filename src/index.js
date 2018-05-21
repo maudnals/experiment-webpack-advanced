@@ -1,4 +1,5 @@
-import createCard from './card';
+import createCard from './card'; 
+import './styles.css';
 
 window.alert(createCard(1, 3));
 let div = document.createElement("div");
